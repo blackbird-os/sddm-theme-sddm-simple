@@ -2,7 +2,7 @@
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
 pkgname=sddm-theme-sddm-simple
-pkgver=$(date +%Y.%m)
+pkgver=1.0
 pkgrel=1
 pkgdesc="Simple SDDM theme, uses simple login field with custom background"
 arch=('any')
