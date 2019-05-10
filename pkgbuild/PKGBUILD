@@ -1,0 +1,16 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=sddm-theme-sddm-simple
+pkgver=$(date +%Y.%m)
+pkgrel=1
+pkgdesc="Simple SDDM theme, uses simple login field with custom background"
+arch=('any')
+url='https://github.com/blackbird-os/sddm-theme-sddm-simple'
+license=('GPL')
+depends=('sddm')
+
+package() {
+  cd ../..
+  cp -aR usr $pkgdir/
+}
